@@ -26,7 +26,7 @@
 }
 
 .chat-input:focus {
-  border-color: #a1a1aa;
+  border-color: var(--color-text-muted);
 }
 
 .chat-input::-webkit-scrollbar {
@@ -60,16 +60,6 @@
   opacity: 0.85;
 }
 
-.chat-input__send-icon {
-  width: 18px;
-  height: 18px;
-  stroke: currentColor;
-  fill: none;
-  stroke-width: 1.75;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
 .chat-input__help-btn {
   width: 40px;
   height: 40px;
@@ -80,8 +70,6 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  font-size: var(--font-size-md);
-  font-weight: 700;
   transition: opacity var(--transition-fast);
 }
 

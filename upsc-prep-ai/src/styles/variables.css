@@ -17,7 +17,6 @@
   --color-user-message-bg: #111111;
   --color-user-message-text: #ffffff;
 
-  --color-sidebar-bg: #ffffff;
   --color-sidebar-brand: #111111;
 
   --color-score-high: #16a34a;
@@ -27,7 +26,6 @@
   /* Layout */
   --sidebar-width: 280px;
   --header-height: 56px;
-  --bottom-bar-height: 112px;
 
   /* Spacing */
   --space-1: 4px;

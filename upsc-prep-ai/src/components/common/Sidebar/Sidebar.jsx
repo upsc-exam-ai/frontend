@@ -1,3 +1,4 @@
+import { SquarePen } from 'lucide-react'
 import './Sidebar.css'
 
 const RECENT_CHATS = [
@@ -27,10 +28,7 @@ function Sidebar({ isOpen, onNewChat }) {
       </div>
 
       <button className="sidebar__new-chat" onClick={onNewChat}>
-        <svg className="sidebar__new-chat-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
-          <path d="M14 9.333A5.333 5.333 0 0 1 8.667 14H2.667A.667.667 0 0 1 2 13.333V7.333A5.333 5.333 0 0 1 7.333 2" strokeLinecap="round" />
-          <path d="M11 1v4M9 3h4" strokeLinecap="round" />
-        </svg>
+        <SquarePen className="sidebar__new-chat-icon" size={16} />
         New Chat
       </button>
 

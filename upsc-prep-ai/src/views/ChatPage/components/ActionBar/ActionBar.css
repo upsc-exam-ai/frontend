@@ -1,3 +1,7 @@
+.action-bar__file-input {
+  display: none;
+}
+
 .action-bar {
   display: flex;
   align-items: center;
@@ -26,12 +30,5 @@
 }
 
 .action-bar__btn-icon {
-  width: 15px;
-  height: 15px;
   flex-shrink: 0;
-  stroke: currentColor;
-  fill: none;
-  stroke-width: 1.5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
 }
